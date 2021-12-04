@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'TabulaPeutingeriana';
+    src: url('fonts/TabulaPeutingeriana.ttf');
+}
+body {
+    background-image: url(pictures/annaLove.png);
+    max-width: 1400px;
+    max-height: 2000px;
+    margin: auto;
+}
+h1 {
+    font-family: 'TabulaPeutingeriana';
+    font-size:  50px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    color: rgb(46, 39, 61);
+    word-spacing: 10px;
+    text-align: center;
+    border: 2px rgb(46, 39, 61) solid;
+    border-bottom: 30px rgb(46, 39, 61) solid;
+    padding-bottom:  20px;
+    padding-top:  10px;
+    margin-top: 10px;
+    margin-bottom: 0px ;
+    background-color: rgb(146, 160, 200);
+    border-radius: 20px;
+}
+h2 {
+    font-family: 'TabulaPeutingeriana';
+    font-size:  30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(46, 39, 61);
+    word-spacing: 1px;
+    border: 2px rgb(46, 39, 61) solid;
+    padding: 0px;
+    padding-left: 20px;
+    background-color: rgb(146, 160, 200);
+    border-radius: 20px;
+    width: auto;
+    position: absolute;
+    top: 60%;
+}
+img {
+    max-width: 70%;
+    margin-top: 50px;
+    display: flex;
+    animation-name: heart;
+    animation-duration: 7s;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+@keyframes heart {
+    from {
+        opacity: 0%;
+    }
+    tp {
+        opacity: 100%;
+    }
+}
